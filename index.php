@@ -9,6 +9,8 @@
 	<link rel="stylesheet" href="style.min.css">
 	<script src="js/main.js"></script>
 	<link rel="stylesheet" href="https://use.typekit.net/tgm5fbl.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+	<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 	<!-- <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
@@ -63,6 +65,25 @@
 
 	<main>
 		<section class="slider-card">
+		<h1>no se puede ir para atrá wacho</h1>
+	<!-- Swiper -->
+	<div class="swiper">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide">Slide 1</div>
+			<div class="swiper-slide">Slide 2</div>
+			<div class="swiper-slide">Slide 3</div>
+			<div class="swiper-slide">Slide 4</div>
+			<div class="swiper-slide">Slide 5</div>
+			<div class="swiper-slide">Slide 6</div>
+			<div class="swiper-slide">Slide 7</div>
+			<div class="swiper-slide">Slide 8</div>
+			<div class="swiper-slide">Slide 9</div>
+			<div class="swiper-slide">Slide 10</div>
+		</div>
+	</div>
+
+
+
 
 		</section>
 		<section class="text-main">
