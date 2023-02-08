@@ -1,0 +1,31 @@
+/**
+ * Main Styles for site.
+ */
+
+// sass main.scss ../style.min.css --style=compressed
+// sass --watch main.scss:../style.min.css --style=compressed
+
+$theme-dark:    #323232;
+$theme-violet : #4D3762;
+$theme-orange : #BC690B;
+$theme-beige :  #EFE9C7;
+$theme-pink :   #FFB3C8;
+
+
+
+
+
+$breakpoint-hamburger : 768px;
+
+@import "mixins"; 
+@import "skeleton";
+@import "normalize";
+@import "forms";
+@import "fonts";
+@import "header";
+@import "footer";
+@import "burger-menu";
+@import "index";
+@import "home";
+
+
