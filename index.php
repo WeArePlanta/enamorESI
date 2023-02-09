@@ -65,40 +65,40 @@
 
 	<main>
 		<section class="slider-card">
-		<h1>no se puede ir para atrá wacho</h1>
-	<!-- Swiper -->
-	<div class="swiper">
-		<div class="swiper-wrapper">
-			<div class="swiper-slide">Slide 1</div>
-			<div class="swiper-slide">Slide 2</div>
-			<div class="swiper-slide">Slide 3</div>
-			<div class="swiper-slide">Slide 4</div>
-			<div class="swiper-slide">Slide 5</div>
-			<div class="swiper-slide">Slide 6</div>
-			<div class="swiper-slide">Slide 7</div>
-			<div class="swiper-slide">Slide 8</div>
-			<div class="swiper-slide">Slide 9</div>
-			<div class="swiper-slide">Slide 10</div>
-		</div>
-	</div>
+			<article><p><strong>NUNCA LE DIGAS NO A TUS DERECHOS.</strong> <br><br> Y CUANDO HACES MATCH, EL AMOR A UN <br> DERECHO ES PARA TODA LA VIDA.</p><button id="close-btn">X</button></article>
+			<!-- Swiper -->
+			<div class="swiper">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">Slide 1</div>
+					<div class="swiper-slide">Slide 2</div>
+					<div class="swiper-slide">Slide 3</div>
+					<div class="swiper-slide">Slide 4</div>
+					<div class="swiper-slide">Slide 5</div>
+					<div class="swiper-slide">Slide 6</div>
+					<div class="swiper-slide">Slide 7</div>
+					<div class="swiper-slide">Slide 8</div>
+					<div class="swiper-slide">Slide 9</div>
+					<div class="swiper-slide">Slide 10</div>
+				</div>
+			</div>
 
 
 
 
 		</section>
-		<section class="text-main">
-			<p>COMPARTE TU MATCH CON EL DERECHO QUE MÁS VAYA CONTIGO Y ESTE 8M SAL A LAS CALLES A RECLAMARLO.</p>
-			<p>POR UNA EDUCACIÓN SEXUAL INTEGRAL PARA TODES.</p>
+		<section class="main-text">
+			<p><strong>COMPARTE TU MATCH</strong> CON EL DERECHO QUE MÁS VAYA CONTIGO <br> <strong>Y ESTE 8M SAL A LAS CALLES A RECLAMARLO.</strong></p>
+			<p><strong>POR UNA EDUCACIÓN SEXUAL INTEGRAL PARA TODES.</strong></p>
 		</section>
 	</main>
 
 	<footer>
 		<p>SÍGUENOS EN</p>
 		<ul>
-			<li> <a href="facebook.com/WikimediaArgentina"><img src="img/facebook@2x.png" alt="Link a Facebook"> </a></li>
-			<li> <a href="facebook.com/WikimediaArgentina"><img src="img/twitter@2x.png" alt="Link a twitter"> </a></li>
-			<li> <a href="instagram.com/wikimedia_ar"><img src="img/youtubex2.png" alt="Link a youtube"> </a></li>
-			<li> <a href="twitter.com/wikimedia_ar"><img src="img/instagram@2x.png" alt="Link a instagram"> </a></li>
+			<li> <a href="facebook.com/WikimediaArgentina"><img src="img/redes/Facebook.svg" alt="Link a Facebook"> </a></li>
+			<li> <a href="facebook.com/WikimediaArgentina"><img src="img/redes/Twitter.svg" alt="Link a twitter"> </a></li>
+			<li> <a href="instagram.com/wikimedia_ar"><img src="img/redes/Youtube.svg" alt="Link a youtube"> </a></li>
+			<li> <a href="twitter.com/wikimedia_ar"><img src="img/redes/Instagram.svg" alt="Link a instagram"> </a></li>
 		</ul>
 	</footer>
 </body>
