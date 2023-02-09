@@ -143,35 +143,102 @@ section.slider-card article {
 
 body.show-message article {
 	display: block;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    max-width: 570px;
-    height: 154px;
-    margin: auto;
-    z-index: 2;
-    font-size: 22px;
-    text-transform: uppercase;
-    background-color: #4D3762;
-    text-align: center;
-    color: white;
-    border-radius: 28px;
-    padding: 24px;
-    box-shadow: 0px 9px 14px 10px #645d6b;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	max-width: 570px;
+	height: 154px;
+	margin: auto;
+	z-index: 2;
+	font-size: 22px;
+	text-transform: uppercase;
+	background-color: #4d3762;
+	text-align: center;
+	color: white;
+	border-radius: 28px;
+	padding: 24px;
+	box-shadow: 0px 9px 14px 10px #645d6b;
 	strong {
 		font-size: 27px;
 		color: $theme-pink;
 	}
-
-	
 }
 
 .swiper {
-	width: 240px;
-	height: 320px;
+	width: 472px;
+	height: 700px;
+	.swiper-wrapper {
+		.swiper-slide {
+			img {
+				display: block;
+				margin: 0 auto;
+				padding-top: 25px;
+			}
+			.inner-container-img-p {
+				display: flex;
+				align-items: center;
+				img {
+					width: 20px;
+					margin: 0;
+					padding: 0;
+					margin-left: 24px;
+					margin-right: 7.5px;
+				}
+				p {
+					font-size: 19px;
+					color: $theme-violet;
+				}
+			}
+
+			h3 {
+				margin-left: 24px;
+				color: black;
+				font-weight: bold;
+				margin-top: 0;
+				font-size: 30px;
+				margin-bottom: 11px;
+			}
+			strong {
+				display: block;
+				margin-left: 24px;
+				max-width: 420px;
+				color: $theme-violet;
+			}
+
+			.inner-container-ul-img {
+				display: flex;
+				align-items: center;
+				ul {
+					max-width: 410px;
+					display: flex;
+					flex-wrap: wrap;
+					justify-content: flex-start;
+					align-items: center;
+					padding-left: 24px;
+					padding-top: 12px;
+					li {
+						font-size: 13px;
+						color: $theme-pink;
+						background: $theme-violet;
+						border-radius: 13px;
+						padding: 5px 7px;
+						margin: 0 8px 11px 0;
+					}
+				}
+
+				img {
+					background-color: $theme-violet;
+					width: 42px;
+					padding: 9px 10px;
+					border-radius: 18px;
+
+				}
+			}
+		}
+	}
 }
 
 .swiper-slide {
@@ -184,8 +251,11 @@ body.show-message article {
 	color: #fff;
 }
 
+.swiper-slide.swiper-slide-visible.swiper-slide-active {
+}
+
 .swiper-slide:nth-child(1n) {
-	background-color: rgb(206, 17, 17);
+	background-color: $theme-beige;
 }
 
 .swiper-slide:nth-child(2n) {

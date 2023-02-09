@@ -65,11 +65,33 @@
 
 	<main>
 		<section class="slider-card">
-			<article><p><strong>NUNCA LE DIGAS NO A TUS DERECHOS.</strong> <br><br> Y CUANDO HACES MATCH, EL AMOR A UN <br> DERECHO ES PARA TODA LA VIDA.</p><button id="close-btn">X</button></article>
+			<article>
+				<p><strong>NUNCA LE DIGAS NO A TUS DERECHOS.</strong> <br><br> Y CUANDO HACES MATCH, EL AMOR A UN <br> DERECHO ES PARA TODA LA VIDA.</p><button id="close-btn">X</button>
+			</article>
 			<!-- Swiper -->
 			<div class="swiper">
 				<div class="swiper-wrapper">
-					<div class="swiper-slide">Slide 1</div>
+					<div class="swiper-slide">
+						<img src="img/personaje1.png" alt="personaje 1">
+						<div class="inner-container-img-p">
+							<img src="img/Locacion-Icon@2x.png" alt="">
+							<p>En el colegio y en las calles.</p>
+						</div>
+						<h3>JUSTO, 19</h3>
+						<strong>DERECHO A QUE NO TE DISCRIMINEN POR SER QUIEN ERES.</strong>
+						<div class="inner-container-ul-img">
+							<ul>
+								<li>👩‍👩‍👦 ESCUCHA FAMILIAR</li>
+								<li>🌈 VISIBILIDAD DE CUERPOS</li>
+								<li>🥰 AMOR A LA DIVERSIDAD</li>
+								<li>🔥 JÓVENES DECIDIENDO</li>
+								<li>🦄 REPRESENTACIÓN</li>
+								<li>🧠 EDUCACIÓN NO SEXISTA</li>
+							</ul>
+							<img src="img/corazon.png" alt="">
+
+						</div>
+					</div>
 					<div class="swiper-slide">Slide 2</div>
 					<div class="swiper-slide">Slide 3</div>
 					<div class="swiper-slide">Slide 4</div>
