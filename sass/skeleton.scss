@@ -147,6 +147,7 @@ section.slider-card {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	overflow: hidden;
 }
 
 section.slider-card article {
@@ -155,40 +156,63 @@ section.slider-card article {
 
 body.show-message article {
 	display: block;
+	padding: 25px;
 	position: fixed;
 	top: 0;
 	bottom: 0;
 	left: 0;
 	right: 0;
 	width: 100%;
-	max-width: 570px;
-	height: 154px;
+	max-width: 90%;
+	width: 570px;
+	height: 230px;
 	margin: auto;
 	z-index: 2;
-	font-size: 21px;
 	text-transform: uppercase;
 	background-color: #4d3762;
 	text-align: center;
 	color: white;
 	border-radius: 28px;
 	box-shadow: 0px 8px 20px 10px #645d6b66;
-	strong {
-		font-size: 24px;
-		color: $theme-pink;
+
+	@media (min-width: 550px) {
+		padding: 0;
+		height: 180px;
 	}
 
 	p {
-		&:nth-child(1) {
-			padding: 0;
-			margin: 47px 25px 2px;
+		font-size: 21px;
+
+		@media (min-width: 550px) {
+			font-size: 24px;
 		}
+
+		&:nth-child(1) {
+			color: $theme-pink;
+			padding: 0;
+
+			@media (min-width: 550px) {
+				margin: 47px 25px 2px;
+			}
+		}
+
 		&:nth-child(2) {
-			margin: 0 67px 30px;
-			strong {
-				color: white;
+			font-size: 16px;
+
+			@media (min-width: 550px) {
+				margin-top: 10px;
 				font-size: 21px;
 			}
 		}
+
+		strong {
+			display: block;
+
+			@media (min-width: 550px) {
+				display: inline;
+			}
+		}
+
 	}
 
 	button {
@@ -213,19 +237,30 @@ body.show-message article {
 }
 
 .swiper {
-	width: 472px;
-	height: 700px;
+	width: 90%;
+	max-width: 472px;
+	height: 620px;
+
+	@media (min-width: 1000px) {
+		height: 700px;
+	}
+
 	.swiper-wrapper {
 		.swiper-slide {
 			img {
+				width: 203px;
 				display: block;
 				margin: 0 auto;
 				padding-top: 25px;
-				width: 423px;
+
+				@media (min-width: 1000px) {
+					width: 423px;
+				}
 			}
 			.inner-container-img-p {
 				display: flex;
 				align-items: center;
+
 				img {
 					width: 20px;
 					margin: 0;
@@ -233,9 +268,14 @@ body.show-message article {
 					margin-left: 24px;
 					margin-right: 7.5px;
 				}
+
 				p {
-					font-size: 19px;
+					font-size: 14px;
 					color: $theme-violet;
+
+					@media (min-width: 1000px) {
+						font-size: 19px;
+					}
 				}
 			}
 
@@ -244,9 +284,13 @@ body.show-message article {
 				color: black;
 				font-weight: bold;
 				margin-top: 0;
-				font-size: 30px;
+				font-size: 20px;
 				margin-bottom: 11px;
 				font-family: "glodok", sans-serif;
+
+				@media (min-width: 1000px) {
+					font-size: 30px;
+				}
 			}
 			strong {
 				display: block;
@@ -321,5 +365,3 @@ body.show-message article {
 .swiper-slide:nth-child(5n) {
 	background-color: $theme-beige;
 }
-
-
