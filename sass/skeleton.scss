@@ -48,13 +48,19 @@ body {
 				border-right: solid 2px;
 				border-color: #4d3762;
 				padding-right: 20px;
-				width: 122px;
+				width: 100px;
+				@media (min-width: 1000px) {
+					width: 122px;
+				}
 			}
 		}
 		picture:nth-child(2) {
 			img {
 				padding-left: 20px;
-				width: 204px;
+				width: 130px;
+				@media (min-width: 1000px) {
+					width: 204px;
+				}
 			}
 		}
 	}
@@ -67,22 +73,33 @@ body {
 			display: block;
 			margin-top: 36px;
 			margin-bottom: 32px;
+			padding: 0 10px;
 		}
 	}
 
 	section.subtitle {
+		margin-right: 5px;
+		margin-left: 5px;
 		P {
 			text-align: center;
 			background: $theme-violet;
 			width: 100%;
-			max-width: 850px;
+			max-width: 600px;
 			margin: 0 auto;
 			border-radius: 50px;
 			padding-top: 5px;
 			padding-bottom: 5px;
 			font-weight: bold;
 			color: $theme-pink;
-			font-size: 30px;
+			font-size: 18px;
+			padding-left: 7px;
+			padding-right: 7px;
+			@media (min-width: 1000px) {
+				font-size: 30px;
+				max-width: 850px;
+				padding-left: 0;
+				padding-right: 0;
+			}
 			strong {
 				color: white;
 			}
@@ -93,16 +110,24 @@ body {
 	section.main-text {
 		text-align: center;
 		color: $theme-violet;
-		font-size: 25px;
+		font-size: 20px;
 		padding-top: 67px;
 		font-weight: bold;
+		padding-left: 10px;
+		padding-right: 10px;
+		@media (min-width: 1000px) {
+			font-size: 25px;
+		}
 		p {
 			margin: 0;
 			padding: 0;
 			&:nth-child(2) {
-				font-size: 30px;
+				font-size: 25px;
 				margin-top: 5px;
 				margin-bottom: 39px;
+				@media (min-width: 1000px) {
+					font-size: 30px;
+				}
 			}
 		}
 	}
@@ -212,7 +237,6 @@ body.show-message article {
 				display: inline;
 			}
 		}
-
 	}
 
 	button {
@@ -253,6 +277,9 @@ body.show-message article {
 				margin: 0 auto;
 				padding-top: 25px;
 
+				@media (min-width: 360px) {
+					width: 270px;
+				}
 				@media (min-width: 1000px) {
 					width: 423px;
 				}
@@ -298,19 +325,30 @@ body.show-message article {
 				max-width: 420px;
 				color: $theme-violet;
 				text-transform: uppercase;
+				font-size: 16px;
+				@media (min-width: 1000px) {
+					font-size: 22px;
+				}
 			}
 
 			.inner-container-ul-img {
 				display: flex;
 				align-items: center;
+				flex-direction: column;
+				@media (min-width: 360px) {
+					flex-direction: row;
+				}
 				ul {
-					max-width: 410px;
+					max-width: 244px;
 					display: flex;
 					flex-wrap: wrap;
 					justify-content: flex-start;
 					align-items: center;
 					padding-left: 24px;
 					padding-top: 12px;
+					@media (min-width: 1000px) {
+						max-width: 410px;
+					}
 					li {
 						font-size: 13px;
 						color: $theme-pink;
@@ -319,6 +357,12 @@ body.show-message article {
 						padding: 5px 7px;
 						margin: 0 8px 11px 0;
 						text-transform: uppercase;
+
+						&.sapere-extra-class {
+							@media (min-width: 1000px) {
+								display: none;
+							}
+						}
 					}
 				}
 
