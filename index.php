@@ -11,6 +11,7 @@
 	<link rel="stylesheet" href="https://use.typekit.net/tgm5fbl.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
 	<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+	<link rel="stylesheet" href="https://use.typekit.net/tgm5fbl.css">
 	<!-- <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
@@ -54,9 +55,9 @@
 		</section>
 		<picture class="enamoresi-title">
 			<!-- Desktop -->
-			<source media="(min-width:980px)" srcset="img/enamoresi-@2x.png" alt="EnamorEsi">
+			<source media="(min-width:980px)" srcset="img/TEXTOS_ESI@2x.png" alt="EnamorEsi">
 			<!-- Mobile  -->
-			<img src="img/enamoresi-.png" alt="EnamorEsi">
+			<img src="img/TEXTOS_ESI.png" alt="EnamorEsi">
 		</picture>
 		<section class="subtitle">
 			<p>ESTE 14 DE FEBRERO, <strong>HAZ MATCH </strong>CON TUS DERECHOS.</p>
@@ -66,15 +67,16 @@
 	<main>
 		<section class="slider-card">
 			<article>
-				<p><strong>NUNCA LE DIGAS NO A TUS DERECHOS.</strong> <br><br> Y CUANDO HACES MATCH, EL AMOR A UN <br> DERECHO ES PARA TODA LA VIDA.</p><button id="close-btn">X</button>
+				<p><strong>A TUS DERECHOS SOLO LES PUEDES DECIR SÍ.</strong></p>
+				<p> Y CUANDO HACES MATCH, <strong> EL AMOR A UN <br> DERECHO ES PARA TODA LA VIDA.</strong></p><button id="close-btn">X</button>
 			</article>
 			<!-- Swiper -->
 			<div class="swiper">
 				<div class="swiper-wrapper">
-					<div class="swiper-slide">
-						<img src="img/personaje1.png" alt="personaje 1">
+					<div class="swiper-slide one">
+						<img src="img/personaje1.png" alt="Sobre fondo verde, vemos a una persona con cabello fucsia trenzado, un tatuaje sobre su ceja y un piercing dorado en su nariz. Lleva una camiseta blanca y su rostro está serio. ">
 						<div class="inner-container-img-p">
-							<img src="img/Locacion-Icon@2x.png" alt="">
+							<img src="img/Locacion-Icon@2x.png" alt="Icono que indica ubicación">
 							<p>En el colegio y en las calles.</p>
 						</div>
 						<h3>JUSTO, 19</h3>
@@ -86,21 +88,117 @@
 								<li>🥰 AMOR A LA DIVERSIDAD</li>
 								<li>🔥 JÓVENES DECIDIENDO</li>
 								<li>🦄 REPRESENTACIÓN</li>
-								<li>🧠 EDUCACIÓN NO SEXISTA</li>
+								<li>🧠 Educación no sexista</li>
 							</ul>
-							<img src="img/corazon.png" alt="">
+							<img src="img/corazon.png" alt="dibujo de un corazón con el mismo formato de corazón que se utiliza en las redes sociales para dar like">
 
 						</div>
 					</div>
-					<div class="swiper-slide">Slide 2</div>
-					<div class="swiper-slide">Slide 3</div>
-					<div class="swiper-slide">Slide 4</div>
-					<div class="swiper-slide">Slide 5</div>
-					<div class="swiper-slide">Slide 6</div>
-					<div class="swiper-slide">Slide 7</div>
-					<div class="swiper-slide">Slide 8</div>
-					<div class="swiper-slide">Slide 9</div>
-					<div class="swiper-slide">Slide 10</div>
+					<div class="swiper-slide two">
+						<img src="img/TARJETA-2-Sole.png" alt="Sobre fondo violeta, vemos a un muchacho de cabello corto, lentes y un piercing en el oído derecho. Sonríe de un costado y lleva una camiseta deportiva colorada ">
+						<div class="inner-container-img-p">
+							<img src="img/Locacion-Icon@2x.png" alt="Icono que indica ubicación">
+							<p>En tu casa y en donde quieras.</p>
+						</div>
+						<h3>SOLE, 29</h3>
+						<strong>Derecho a un viernes a la noche leyendo un libro.</strong>
+						<div class="inner-container-ul-img">
+							<ul>
+								<li>🌈 Sexualidades diversas</li>
+								<li>👣 Autonomía sexual</li>
+								<li>🥽 Autoconocimiento</li>
+								<li>🐱 Independencia</li>
+								<li>✊🏽 Mi cuerpo, mi decisión</li>
+								<li>🔏 Privacidad</li>
+							</ul>
+							<img src="img/corazon.png" alt="dibujo de un corazón con el mismo formato de corazón que se utiliza en las redes sociales para dar like">
+
+						</div>
+					</div>
+					<div class="swiper-slide three">
+						<img src="img/TARJETA-3-Libertad.png" alt="Sobre fondo azul, vemos a una joven de cabello negro corto, con ojos cerrados y sonriendo, llevando un collar de perlas negras que vuelan y una camiseta de formas y dibujos de colores. ">
+						<div class="inner-container-img-p">
+							<img src="img/Locacion-Icon@2x.png" alt="Icono que indica ubicación">
+							<p>En tu casa y en tu habitación.</p>
+						</div>
+						<h3>LIBERTAD, 34</h3>
+						<strong>Derecho a compartir, o no, tu orientación sexual a tu familia.</strong>
+						<div class="inner-container-ul-img">
+							<ul>
+								<li>🚪 Privacidad</li>
+								<li>👞 Toma de decisiones propias</li>
+								<li>👨‍👨‍👧‍👧 Relaciones sanas </li>
+								<li>🌈 Diversidad sexual</li>
+								<li>👑 Autoconfianza</li>
+								<li>🤍 Amor sin prejuicios</li>
+							</ul>
+							<img src="img/corazon.png" alt="dibujo de un corazón con el mismo formato de corazón que se utiliza en las redes sociales para dar like">
+
+						</div>
+					</div>
+					<div class="swiper-slide four">
+						<img src="img/TARJETA-4-Sapere.png" alt="Sobre fondo color salmón, vemos a un joven sentado en una silla de ruedas. Lleva el cabello semi largo, una camisa violeta y un pullover de colores, y está serio, mirando de un costado.">
+						<div class="inner-container-img-p">
+							<img src="img/Locacion-Icon@2x.png" alt="Icono que indica ubicación">
+							<p>Con alguien o contigo misme.</p>
+						</div>
+						<h3>SAPERE, 33</h3>
+						<strong>Derecho a decidir si quieres tener hijes y cómo.</strong>
+						<div class="inner-container-ul-img">
+							<ul>
+								<li>🏘 Opciones reproductivas</li>
+								<li>🐣 Crianza libre</li>
+								<li>🐱 Independencia</li>
+								<li>🧠 Decisiones propias</li>
+								<li>🗓 Regulación de fertilidad</li>
+								<!-- <li>✊🏽 Derecho reproductivo</li> -->
+							</ul>
+							<img src="img/corazon.png" alt="dibujo de un corazón con el mismo formato de corazón que se utiliza en las redes sociales para dar like">
+
+						</div>
+					</div>
+					<div class="swiper-slide five">
+						<img src="img/TARJETA-5-Sisi.png" alt="Sobre fondo lima, vemos a un muchacho con cabello fucsia, corto. Lleva una camiseta verde. Sus ojos son grandes, tiene una expresión sonriente. ">
+						<div class="inner-container-img-p">
+							<img src="img/Locacion-Icon@2x.png" alt="Icono que indica ubicación">
+							<p>En los bares y en los chats. </p>
+						</div>
+						<h3>SISI, 17.</h3>
+						<strong>Derecho a decir sí solo si realmente quiero.</strong>
+						<div class="inner-container-ul-img">
+							<ul>
+								<li>🚫 Solo SÍ es SÍ</li>
+								<li>🐱 Independencia</li>
+								<li>👞 Decisiones propias</li>
+								<li>☀️ Autonomía</li>
+								<li>💬 Relaciones sin tabúes</li>
+								<li>🔴 STOP presiones</li>
+							</ul>
+							<img src="img/corazon.png" alt="dibujo de un corazón con el mismo formato de corazón que se utiliza en las redes sociales para dar like">
+
+						</div>
+					</div>
+					<div class="swiper-slide six">
+						<img src="img/TARJETA-6-Mia.png" alt="Sobre fondo violeta, vemos a una joven que lleva el cabello rapado. Es rubia, tiene un piercing en la parte superior de su oreja derecha. Su cabeza está inclinada hacia abajo pero con su mirada observa de costado y hacia arriba, con la boca abierta y sonriente. Lleva una musculosa azul y una camisa blanca por debajo de los hombros.">
+						<div class="inner-container-img-p">
+							<img src="img/Locacion-Icon@2x.png" alt="Icono que indica ubicación">
+							<p>En tu habitación y en todas.</p>
+						</div>
+						<h3>MÍA, 33.</h3>
+						<strong>Derecho a vivir tu sexualidad de la mejor manera: la tuya.</strong>
+						<div class="inner-container-ul-img">
+							<ul>
+								<li>🔥 Control y placer del cuerpo</li>
+								<li>🚫 Sin tabúes</li>
+								<li>🌈 Cuerpos diversos</li>
+								<li>🐱 Independencia</li>
+								<li>👨‍👨‍👧‍👧 Respeto y escucha</li>
+								<li>🥦 Relaciones sanas</li>
+							</ul>
+							<img src="img/corazon.png" alt="dibujo de un corazón con el mismo formato de corazón que se utiliza en las redes sociales para dar like">
+
+						</div>
+					</div>
 				</div>
 			</div>
 
@@ -109,7 +207,7 @@
 
 		</section>
 		<section class="main-text">
-			<p><strong>COMPARTE TU MATCH</strong> CON EL DERECHO QUE MÁS VAYA CONTIGO <br> <strong>Y ESTE 8M SAL A LAS CALLES A RECLAMARLO.</strong></p>
+			<p><strong>COMPARTE TU MATCH CON EL DERECHO DE TODES.</strong></p>
 			<p><strong>POR UNA EDUCACIÓN SEXUAL INTEGRAL PARA TODES.</strong></p>
 		</section>
 	</main>
@@ -117,10 +215,10 @@
 	<footer>
 		<p>SÍGUENOS EN</p>
 		<ul>
-			<li> <a href="facebook.com/WikimediaArgentina"><img src="img/redes/Facebook.svg" alt="Link a Facebook"> </a></li>
-			<li> <a href="facebook.com/WikimediaArgentina"><img src="img/redes/Twitter.svg" alt="Link a twitter"> </a></li>
-			<li> <a href="instagram.com/wikimedia_ar"><img src="img/redes/Youtube.svg" alt="Link a youtube"> </a></li>
-			<li> <a href="twitter.com/wikimedia_ar"><img src="img/redes/Instagram.svg" alt="Link a instagram"> </a></li>
+			<!-- <li> <a href="facebook.com/WikimediaArgentina"><img src="img/redes/Facebook.svg" alt="Link a Facebook"> </a></li> -->
+			<li> <a href="https://twitter.com/ESIgualdadYa" target="_blank"><img src="img/redes/Twitter.svg" alt="Link a twitter"> </a></li>
+			<!-- <li> <a href="instagram.com/wikimedia_ar"><img src="img/redes/Youtube.svg" alt="Link a youtube"> </a></li> -->
+			<li> <a href="https://www.instagram.com/campanaesigualdad/" target="_blank"><img src="img/redes/Instagram.svg" alt="Link a instagram"> </a></li>
 		</ul>
 	</footer>
 </body>
