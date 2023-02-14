@@ -19,9 +19,8 @@
 	<title>EnamorEIS</title>
 	<link rel="stylesheet" href="../style.min.css">
 	<script src="../js/main.js"></script>
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
-	<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-	<link rel="stylesheet" href="https://use.typekit.net/tgm5fbl.css">
+	<link rel="stylesheet" href="../swiper-bundle.min.css" />
+	<script src="../js/swiper-bundle.min.js"></script>
 	<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
@@ -38,7 +37,19 @@
 	<link rel="manifest" href="favicon/manifest.json">
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
-	<meta name="theme-color" content="#ffffff">
+	<meta name="description" content="EnamorESI. Comparte tu match con el derecho de todes." />
+    <meta property="og:description" content="EnamorESI. Comparte tu match con el derecho de todes.">
+    <meta itemProp="image" property="og:image" content="https://enamoresi.org/enamoreis/favicon/android-icon-192x192.png" />
+    <meta property="og:locale" content="es">
+    <meta property="og:image" content="https://enamoresi.org/enamoreis/favicon/android-icon-192x192.png" />
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://enamoresi.org/" />
+	<meta name="twitter:title" content="EnamorESI"/>
+	<meta name="twitter:description" content="Comparte tu match con el derecho de todes."/>
+	<meta name="twitter:site" content="@ESIgualdadYa"/>
+	<meta name="twitter:card" content="summary_large_image"/>
+	<meta name="twitter:creator" content="@ESIgualdadYa"/>
+	<meta name="twitter:image" content="https://enamoresi.org/enamoreis/favicon/android-icon-192x192.png"/>
 </head>
 
 <body>
